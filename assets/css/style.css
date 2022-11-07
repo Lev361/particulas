@@ -1,0 +1,36 @@
+*{
+	margin: box;
+	padding: box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'sans-serif';
+	background-color: #000;
+	height: 100vh;
+}
+
+h1{
+	color: #fff;
+	font-size: 72px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 35vh;
+	text-shadow: 0 0 10px rgba(255,255,255, .35);
+	z-index: 9999;
+}
+
+h1 span{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 100;
+}
+
+#bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: ;
+}
